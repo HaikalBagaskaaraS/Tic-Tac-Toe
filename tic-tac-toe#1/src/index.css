@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 350px;
+  height: 450px;
+  margin: 0 auto;
+  border: 1px solid;
+}
+
+.container h1 {
+  text-align: center;
+}
+
+.square {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  background-color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+}
+
+.status {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.winning-square {
+  background-color: green;
+}
+
+.playGame {
+  width: 150px;
+  margin: 0 auto;
+  padding-bottom: 7px;
+}
+
+.playGame button {
+  width: 70px;
+  height: 30px;
+  margin: 2px;
+  background-color: #fff;
+  border: 1px solid;
+  cursor: pointer;
+}
+
+.playGame button:hover {
+  background-color: #eeeeeee3;
+}
+
+.scoreGame {
+  display: flex;
+  text-align: center;
+  width: 205px;
+  margin: 15px auto;
+}
+
+.scoreGame div {
+  width: 100px;
+  border: 1px solid;
+  padding: 10px;
+  margin: 5px;
+}
